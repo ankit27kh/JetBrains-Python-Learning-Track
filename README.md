@@ -1,4 +1,4 @@
-# JetBrains Python Learning Track
+# JetBrains Python Developer Track
  This repository will contain projects that I'm doing on the Python Developer Track from the JetBrains Academy.
  
  Follow this link to join:
