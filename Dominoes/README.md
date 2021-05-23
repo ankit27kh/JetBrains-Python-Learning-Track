@@ -22,7 +22,7 @@ Objectives:
 12. Print only the first and the last three pieces of the domino snake separated by three dots if it exceeds six dominoes in length.
 13. Add a game loop that will repeat the following steps until the game ends:
 	Display the current playing field .
-	If it's a user's turn, prompt the user for a move and apply it. If the input is invalid (a not-integer or it exceeds limitations), request a new input with the following message: Invalid input. Please try again..
+	If it's a user's turn, prompt the user for a move and apply it. If the input is invalid (a not-integer or it exceeds limitations), request a new input with the following 		message: Invalid input. Please try again..
 	If it's a computer's turn, prompt the user to press Enter, AI will make the move.
 	Switch turns.
 14. Verify that the move entered by the player is legal (requirement #1).
@@ -31,4 +31,4 @@ Objectives:
 16. The AI should use the following algorithm to calculate the score:
 	Count the number of 0's, 1's, 2's, etc., in your hand, and in the snake.
 	Each domino in your hand receives a score equal to the sum of appearances of each of its numbers.
-	The AI will now attempt to play the domino with the largest score, trying both the left and the right sides of the snake. If the rules prohibit this move, the AI will move down the score list and try another domino. The AI will skip the turn if it runs out of options.
+	The AI will now attempt to play the domino with the largest score, trying both the left and the right sides of the snake. If the rules prohibit this move, the AI will move 	down the score list and try another domino. The AI will skip the turn if it runs out of options.
