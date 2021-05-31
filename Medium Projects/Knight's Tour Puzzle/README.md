@@ -12,6 +12,8 @@ Objectives:
 
 5. If the board is big and the number of moves exceeds 9, use spaces for the extra digits and align the text to the right.
 
+---
+
 NOTE: This project uses Warnsdorff's rule. I am not completely sure that it works in all cases.  
 If the area of the board is larger than 25 and you choose to try the board, it will not check for a solution and directly ask you to play.  
 Instead, if you choose to see to the solution, it might say no solution exists even when there is a solution in some cases where backtracking is required.  
