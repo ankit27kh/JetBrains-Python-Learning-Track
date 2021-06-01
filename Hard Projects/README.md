@@ -12,3 +12,7 @@ The tails should consist of one token. For example: head â€” 'winter is', tail â
 4. When predicting the next word, the model should be fed the concatenation of the last two tokens of the chain separated by a space.
 
 5. Print 10 pseudo-sentences of length 5 of more. Taking care that they start with capitalized words and end with sentence stop symbols- '.!?'.
+
+---
+
+The corpus file is the supplied with the project to check the code.
