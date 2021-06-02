@@ -56,7 +56,7 @@ Stage 4:
 
 3. After asking a user about certain mealtime, make a loop that will gather information about the ingredients. The ingredients should be entered in the following format: quantity measure ingredient.
 
-4. Pressing <Enter> should finish the information gathering.
+4. Pressing Enter should finish the information gathering.
 
 5. The measure parameter should start with a string provided by a user. If there is more than one measure that starts with the provided string, ask the user again. For example tbs and tbsp both start with the t. So the 1 t sugar entry should not pass.
 
