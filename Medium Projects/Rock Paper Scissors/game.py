@@ -9,7 +9,6 @@ class Game:
         self.user_name = input('Enter your name: ')
         self.rating = 0
         self.options = ''
-        self.choice_dict = {}
         self.ratings_and_options(self.user_name)
 
     def ratings_and_options(self, name):
