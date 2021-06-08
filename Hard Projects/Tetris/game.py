@@ -6,6 +6,8 @@ class Tetris:
     def __init__(self):
         print("Press 'w' to rotate the piece, 'a' to move left, 'd' to move right and enter to move down.")
         print("Press 'p' to get a new piece once the last piece is fixed.")
+        print("Press 'b' to break full lines from the bottom of the board.")
+        print("Currently, to play correctly, you need to fill from the bottom up without leaving any space.")
         self.size = input("Enter size of the board (columns (> 10) rows (> 10): ").split()
         self.size = [int(n) for n in self.size]
         self.columns = self.size[0]
@@ -52,7 +54,7 @@ class Tetris:
         print()
         orientation.extend(self.fixed_blocks)
         orientation = set(orientation)
-        if command == 'break':
+        if command == 'b':
             broken_blocks = sorted(self.fixed_blocks, reverse=True)
             number = len(broken_blocks)
             lines = number // self.columns
