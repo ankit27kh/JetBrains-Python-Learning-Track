@@ -5,3 +5,6 @@ Next was to get the bus lines and their number of stops.
 Next was to check if their are start and finish stops for all bus lines. And, to find transfer stations.  
 Next was to check if the stop times make sense or not.  
 Last was to see if any important stop is not incorrectly marked as 'On Demand'.
+
+
+The correct rules were meant to be made from the included documents (incomplete).
